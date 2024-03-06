@@ -1,0 +1,9 @@
+package miniProje1;
+public class MiniProjeAsalSayi {
+	public static void main(String[] args) {
+		int sayi=25;
+		int kalan = sayi % 2;
+		System.out.println(kalan);
+	}
+
+}

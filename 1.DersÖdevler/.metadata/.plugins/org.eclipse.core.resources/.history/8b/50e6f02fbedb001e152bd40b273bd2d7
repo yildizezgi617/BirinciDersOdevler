@@ -1,0 +1,29 @@
+package recap;
+
+public class ReCapDemos {
+	public static void main(String[] args) {
+		double[] mylist = { 1.3, 1.9, 4.2, 7.2 };
+		double total = 0;
+		double EnBuyukSayı= mylist[0];
+		for (double numbers : mylist) {
+			total = total + numbers;
+			System.out.println(numbers);
+		}
+		System.out.println("toplam:" + total);
+		if(EnBuyukSayı<mylist[1]) {
+			EnBuyukSayı=mylist[1];
+			
+		}
+		if(EnBuyukSayı<mylist[2]) {
+			EnBuyukSayı=mylist[2];
+			
+		}
+		if(EnBuyukSayı<mylist[3]) {
+			EnBuyukSayı=mylist[3];
+			
+		}
+		System.out.println("En Büyük Sayı:"+EnBuyukSayı);
+		}
+	}
+
+

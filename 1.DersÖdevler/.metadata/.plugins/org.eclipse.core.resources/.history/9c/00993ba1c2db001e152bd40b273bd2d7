@@ -1,0 +1,17 @@
+package String;
+
+import java.awt.datatransfer.SystemFlavorMap;
+
+public class StringDemo {
+	public static void main(String[] args) {
+		String mesaj = "Bugun Hava Cok Guzel. ";
+		System.out.println("Mesaj:"+mesaj);
+		System.out.println("Eleman Sayısı:"+ mesaj.length());
+		System.out.println("5. Elemanı: "+ mesaj.charAt(4));
+		System.out.println(mesaj.concat("Dışarı Çıkalım"));
+		System.out.println(mesaj.startsWith("B"));
+		System.out.println(mesaj.endsWith("k")));
+		
+	}
+
+}

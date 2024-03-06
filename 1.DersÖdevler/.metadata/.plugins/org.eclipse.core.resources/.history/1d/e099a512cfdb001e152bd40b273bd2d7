@@ -1,0 +1,25 @@
+package mukemmelsayi;
+
+public class MukemmelSayiDemo {
+	public static void main(String[] args) {
+		int sayi = 6;
+		for (int i = 2; i < sayi; i++) {
+			int kalan = sayi % i;
+			if (kalan == 0) {
+				int bolum = sayi / i;
+				int sayilar = 0;
+						sayilar =bolum + sayilar ;
+
+				if (sayilar == sayi) {
+
+					System.out.println("mukemmel sayi");
+				} else {
+					System.out.println("muk sayı degil");
+				}
+			}
+
+		}
+
+	}
+
+}

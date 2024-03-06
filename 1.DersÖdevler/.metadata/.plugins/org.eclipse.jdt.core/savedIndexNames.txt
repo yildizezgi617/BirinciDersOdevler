@@ -1,0 +1,15 @@
+INDEX VERSION 1.134+C:\Users\anily\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
+2178751970.index
+1865797976.index
+1228857753.index
+2496542123.index
+4135088300.index
+2208946761.index
+2627745225.index
+1357958162.index
+1670916203.index
+3592260270.index
+2274407143.index
+1573575893.index
+316057495.index
+2101624121.index
